@@ -2,6 +2,8 @@
 
 ## Punctuation Dictionary
 
+Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+
 * . `TP-PL` =&gt; `F-PL` (<strong>f</strong>u<strong>ll</strong> sto<strong>p</strong>, spaced)
 * . `P-P` (decimal <strong>p</strong>oint, unspaced)
 * ... `SKWR-RBGS` =&gt; `SY-SHUN` (<strong>su</strong>spen<strong>sion</strong> point, then capital)
@@ -65,6 +67,7 @@
 
 ## Git Dictionary
 
+Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * "git" `TKPWEUT`
 * "add" `AD`
