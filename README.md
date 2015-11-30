@@ -1,6 +1,6 @@
 # Plover Dictionaries
 
-## Punctuation dictionary
+## Punctuation Dictionary
 
 * . `TP-PL` =&gt; `F-PL` (<strong>f</strong>u<strong>ll</strong> sto<strong>p</strong>, spaced)
 * . `P-P` (decimal <strong>p</strong>oint, unspaced)
@@ -58,3 +58,41 @@
 * Insert <strong>sp</strong>ace `S-P`
 * <strong>Cap</strong>ital with a space `KPA`
 * <strong>Cap</strong>ital without a space `KPA*`
+
+
+
+
+
+## Git Dictionary
+
+
+* "git" `TKPWEUT`
+* "add" `AD`
+* " " `S-P`
+* "dict" `TKEUBGT`
+* " ." `P-P`
+* "JSON" `SKWRO*FPB`
+* "status" `ST*TS`
+* "diff" `TKEUF`
+* " --" `TK*RB`
+* "cached" `KAERBD`
+* "commit" `KPHEUT`
+* " -" `H*PB`
+* "v" `SR*`
+* "log" `HROG`
+* "p" `P*`
+* "push" `PURB`
+* "origin" `O*RPBLG`
+* "master" `PHAFRT`
+* "pull" `PUL`
+* "{re^}" `RE`
+* "base" `PWAEUS`
+* "check" `KHEBG`
+* "-out" `O*UT`
+* "hot" `HOT`
+* delete space `TK-LS`
+* "fix `TPEUBGS`
+* "reset" `RE/SET`
+* "HEAD" `KPA*E/HED`
+* "^" `KR-RT`
+* "/" `OEU`
