@@ -114,7 +114,7 @@ To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonste
 
 
 
-### Notes on design of and changes in the Australian English Dictionary
+### Notes on Design of and Changes in the Australian English Dictionary
 
 - Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
 - `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
@@ -154,7 +154,7 @@ New briefs have been added for Australian [diminuitives](https://en.wikipedia.or
 
 
 
-### Changed briefs
+### Changed Briefs
 
 The brief for "programme" is overriden by "pram", requiring a new brief for "program":
 
@@ -165,3 +165,10 @@ The `*EG` brief for "e.g." is overriden by the "eing" suffix for the Australian 
 
     +"AOE/SKWRAO*E": "e.g.",
 
+
+
+
+
+## Common Words Dictionary
+
+This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
