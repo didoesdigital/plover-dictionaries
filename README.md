@@ -1,6 +1,6 @@
 # Plover Dictionaries
 
-[Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) dictionaries in JSON format.
+[Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) steno dictionaries in JSON format.
 
 ## Punctuation Dictionary
 
