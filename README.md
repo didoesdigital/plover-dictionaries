@@ -67,6 +67,69 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 
 
+## Australian English Dictionary
+
+This is an Australian English companion dictionary intended to be used in combination with the default Plover dictionary. It overrides default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.
+
+To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+
+
+
+### Notes on Design of and Changes in the Australian English Dictionary
+
+- Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
+- `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
+- `*EG` strokes the "eing" suffix for words such as "ageing"
+- `*LG` strokes the "ling" suffix for words such as "labelling"
+- `*LD` strokes the "led" suffix for words such as "labelled"
+- `*EPLT` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
+- `O*UR` strokes the "our" suffix for words such as "humour"
+- `KWRO*R` strokes the "iour" suffix for words such as "behaviour"
+- Add "U" to `O*R` or `TPHOR` strokes for "nour" endings in words such as "honour"
+- Add "U" to `O*R` or `TKOR` strokes for "dour" endings in words such as "candour"
+- Add "U" to `O*R` or `KHROR` strokes for "our" endings in words such as "colour"
+- For words such as "practice" and "practise", the basic rule is that the noun form uses the "c" spelling while the verb uses the "s" spelling. Therefore, translations have been included for producing both.
+  - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, eg, `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`.
+  - As another example, drop the `S` or use `KRE` to spell licence with a "c", eg: `"HR-PB": "licence"`, `"HR-PBS": "license",`
+- Use "AE" in strokes for Australian "ae" spellings such as "encyclopaedia":
+  - The Australian spelling is used in words stroked with `AE` where it would normally use the long "e" sound stroke `AOE`
+  - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
+  - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
+  - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
+
+
+
+### Australian vocabulary
+
+New briefs have been added for Australian [diminuitives](https://en.wikipedia.org/wiki/Diminutives_in_Australian_English), flora, fauna, [slang and more](https://en.wikipedia.org/wiki/Australian_English_vocabulary). For example:
+
+* `"STRA*EU": "Australia",`
+* `"STRA*EU/KWRA": "straya",`
+* `"PWOE/TKPWAPB": "bogan",`
+* `"RE/PHOFL/EUFT": "removalist",`
+* `"STRAO*UT": "strewth",`
+* `"HROL/HREU": "lolly",`
+* `"TKPWAE/TKAEU": "g'day",`
+* `"RAO": "roo",`
+* `"PHABG/KAS": "Maccas",`
+
+
+
+### Changed Briefs
+
+The brief for "programme" is overriden by "pram", requiring a new brief for "program":
+
+    +"PRAPL": "pram",
+    +"PRO/TKPWRAPL": "program",
+
+The `*EG` brief for "e.g." is overriden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
+
+    +"AOE/SKWRAO*E": "e.g.",
+
+
+
+
+
 ## Git Dictionary
 
 Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
@@ -106,64 +169,43 @@ Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 
 
 
-## Australian English Dictionary
+## Ruby Dictionary
 
-This is an Australian English companion dictionary intended to be used in combination with the default Plover dictionary. It overrides default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.
+Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/master/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
-To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
-
-
-
-### Notes on Design of and Changes in the Australian English Dictionary
-
-- Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
-- `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
-- `*EG` strokes the "eing" suffix for words such as "ageing"
-- `*LG` strokes the "ling" suffix for words such as "labelling"
-- `*LD` strokes the "led" suffix for words such as "labelled"
-- `*EPLT` strokes the "ement" suffix for words such as "judgement", "acknowledgement", "lodgement" and "abridgement"
-- `O*UR` strokes the "our" suffix for words such as "humour"
-- `KWRO*R` strokes the "iour" suffix for words such as "behaviour"
-- Add "U" to `O*R` or `TPHOR` strokes for "nour" endings in words such as "honour"
-- Add "U" to `O*R` or `TKOR` strokes for "dour" endings in words such as "candour"
-- Add "U" to `O*R` or `KHROR` strokes for "our" endings in words such as "colour"
-- For words such as "practice" and "practise", the basic rule is that the noun form uses the "c" spelling while the verb uses the "s" spelling. Therefore, translations have been included for producing both. 
-  - For example, Australian briefs for "defense" with an "s" will use `S` in the brief itself, while Australian briefs for "defence" with a "c" will drop the `S`, eg, `"TKEFS": "defense"`, `"TKE/TPEPB": "defence"`. 
-  - As another example, drop the `S` or use `KRE` to spell licence with a "c", eg: `"HR-PB": "licence"`, `"HR-PBS": "license",`
-- Use "AE" in strokes for Australian "ae" spellings such as "encyclopaedia":
-  - The Australian spelling is used in words stroked with `AE` where it would normally use the long "e" sound stroke `AOE`
-  - Briefs form the Australian spelling, eg, "KAOEUPL/RA": "chimaera",
-  - Words starting with "ae" can be stroked with the prefix `A` such as `"A/AOE/O*PB": "aeon",`
-  - The Australian spelling of "gynaecological" uses briefs and phonetic strokes beginning with `TKPWAOEUPB` => "gyne", while the US spelling uses strokes beginning with `SKWREUPB` => "jyn"
-  
-
-
-### Australian vocabulary
-
-New briefs have been added for Australian [diminuitives](https://en.wikipedia.org/wiki/Diminutives_in_Australian_English), flora, fauna, [slang and more](https://en.wikipedia.org/wiki/Australian_English_vocabulary). For example:
-
-* `"STRA*EU": "Australia",`
-* `"STRA*EU/KWRA": "straya",`
-* `"PWOE/TKPWAPB": "bogan",`
-* `"RE/PHOFL/EUFT": "removalist",`
-* `"STRAO*UT": "strewth",`
-* `"HROL/HREU": "lolly",`
-* `"TKPWAE/TKAEU": "g'day",`
-* `"RAO": "roo",`
-* `"PHABG/KAS": "Maccas",`
-
-
-
-### Changed Briefs
-
-The brief for "programme" is overriden by "pram", requiring a new brief for "program":
-
-    +"PRAPL": "pram",
-    +"PRO/TKPWRAPL": "program",
-
-The `*EG` brief for "e.g." is overriden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
-
-    +"AOE/SKWRAO*E": "e.g.",
+* "%>" `*ERB/KHRO*EZ` (<strong>ERB close</strong>ing tag)
+* "<%=" `*ERB/KPEBG` (<strong>ERB</strong> e<strong>xec</strong>ute tag)
+* "<%" `*ERB/O*EP` (<strong>ERB open</strong>ing tag)
+* "utf-" `*UFT`
+* "utf-8" `*UFT/#L`
+* "UTF-" `*UFT/*UFT`
+* "ARGV" `A*RG/SR*`
+* "ARGF" `A*RG/TP*`
+* "attr_accessor" `A*RT/KPES` (<strong>attr</strong> _ ac<strong>cess</strong>or)
+* "attr_reader" `A*RT/RAERD` (<strong>attr</strong> _ <strong>reader</strong>)
+* "attr_writer" `A*RT/WREUR` (<strong>attr</strong> _ <strong>writer</strong>)
+* "after_filter" `AF/TP*EURLT` (<strong>af</strong>ter <strong>filter</strong>)
+* "before_filter" `PW-FR/TP*EURLT` (<strong>befor</strong>e <strong>filter</strong>)
+* "ERB" `ERB`
+* "=>" `HARB/RO*BGT` (<strong>hash rocket</strong>)
+* "https://rubygems.org" `HAOEPTS/RO*EUB/SKWREPLS`
+* "<<-" `HAOER/TKO*BG` (<strong>heredoc</strong>)
+* "<<-ERROR" `HAOER/TKO*BG/ROEUR` (<strong>heredoc</strong> e<strong>rror</strong>)
+* "::" `KHR-PBS`  (<strong>c</strong>o<strong>lons</strong>)
+* ".html.erb" `P-P/HAOEPLT/ERB`
+* "params[:" `PRA*PLS/PWR-BGT`
+* "rspec" `R*/SP*EBG`
+* "rspec-rerun:spec" `R*/SP*EBG/RE/RUPB/SP*EBG`
+* "rspec-rerun/tasks" `R*/SP*EBG/RE/RUPB/TAFBGS`
+* "regex" `REG/EBG`
+* "regexp" `REG/EBGS`
+* "rubygems" `RO*EUB/SKWREPLS`
+* "def" `TK-F`
+* "nokogiri" `TPHO/KO/TKPWEU/REU`
+* "flash[:" `TPHRARB/PWR-BGT`
+* "flash[:error]" `TPHRARB/PWR-BGT/ROEUR`
+* "flash[:success]" `TPHRARB/PWR-BGT/SKES`
+* "flash[:notice]" `TPHRARB/PWR-BGT/TPH-TS`
 
 
 
