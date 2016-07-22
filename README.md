@@ -2,6 +2,10 @@
 
 [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) steno dictionaries in JSON format.
 
+## Main Dictionary
+
+Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), the main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) file in this repo contains many English words using briefs and phonetic strokes, but contains fewer misstrokes.
+
 ## Punctuation Dictionary
 
 Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
