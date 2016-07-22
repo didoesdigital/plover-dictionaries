@@ -4,7 +4,7 @@
 
 ## Punctuation Dictionary
 
-Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * . `TP-PL` =&gt; `F-PL` (<strong>f</strong>u<strong>ll</strong> sto<strong>p</strong>, spaced)
 * . `P-P` (decimal <strong>p</strong>oint, unspaced)
@@ -71,7 +71,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 This is an Australian English companion dictionary intended to be used in combination with the default Plover dictionary. It overrides default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.
 
-To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
 
 
 
@@ -132,7 +132,7 @@ The `*EG` brief for "e.g." is overriden by the "eing" suffix for the Australian 
 
 ## Git Dictionary
 
-Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/git.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * "git" `TKPWEUT`
 * "add" `AD`
@@ -171,7 +171,7 @@ Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 
 ## Ruby Dictionary
 
-Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/master/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/ruby.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * "%>" `*ERB/KHRO*EZ` (<strong>ERB close</strong>ing tag)
 * "<%=" `*ERB/KPEBG` (<strong>ERB</strong> e<strong>xec</strong>ute tag)
@@ -213,4 +213,4 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 
 ## Common Words Dictionary
 
-This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
+This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
