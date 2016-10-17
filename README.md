@@ -2,9 +2,43 @@
 
 [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) steno dictionaries in JSON format.
 
+
+
 ## Main Dictionary
 
 Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), the main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) file in this repo contains many English words using briefs and phonetic strokes, but contains fewer misstrokes.
+
+
+
+## Navigation Dictionary
+
+This dictionary lets you navigate and edit text efficiently on a Mac. You can move the cursor by letter, word, or line, select while doing so, and also backspace or forward delete by character, word, or line. You can also switch tabs, windows, and apps.
+
+To use the following briefs, copy the [`navigation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/navigation.json) file into your dictionary folder and add it to your Plover config:
+
+As per Plover's default, you use `-R`, `-P`, `-B`, and `-G` for left, up, down, and right.
+
+Use `STPH-` to move by character, `STPH-RB` to jump a word left, and `STPH-BG` to jump a word right.
+
+Use `KPH-` to use Command ⌘, jumping to line beginning and ending, file top and bottom.
+
+Use `STP-` (**s**hi**f**t) to select characters with movement keys. Again, `-RB` and `-BG` work by word.
+
+Use `SHR-` (**s**e**l**ect) to select words with the movement keys. (This and the strokes described above actually add redundant strokes for selecting whole words to the left and right.)
+
+Use `PW*` and `-F`, `-FP`, or `-FPL` for backspacing a character, a word, or a line.
+
+Use `PW*` and `-R`, `-RB`, or `-RBG` for forward deleting a character, a word, or a line.
+
+Use `KPHR-` for Command + Option (⌘⌥) movements (usually for navigating tabs and file trees).
+
+Use `SP-B` to space up/forward and `SP-P` to space down/backward. That is, in the browser use the former stroke to page up and the latter to page down (this is using ⇧Space).
+
+Use `THRAB` for ⌥ ⇓ and `THRAP` for ⌥ ⇑.
+
+Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧] to switch tabs forward and backward. Adding `-B`/`-G` gives you ⌘\`/⌘⇧\` to switch windows forward and backward. Adding `-G`/`-R` gives you ⌘Tab/⌘⇧Tab to switch applications forward and backward. Adding a star to `TW*G` gives you ⌘Tab Tab to switch 2 applications.
+
+
 
 ## Punctuation Dictionary
 
@@ -68,6 +102,79 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 * <strong>Cap</strong>ital without a space `KPA*`
 
 
+
+## Unspaced Punctuation Dictionary
+
+This dictionary uses common briefs for punctuation, but with translations that suppress surrounding spaces (before and after the punctuation) for more precise input. This might be handy for programming, for example.
+
+To use the following briefs, copy the [`unspaced_punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/unspaced_punctuation.json) file into your dictionary folder and add it to your Plover config:
+
+* `EPB/TKA*RB`: –
+* `EPL/TKA*RB`: —
+* `KH-FG`: \`
+* `KR-RT`: ^
+* `KA*RT`: ^
+* `T*LD`: ~
+* `T*EULD`: ~
+* `AEPBGT`: <
+* `AEPBG`: <
+* `A*EPBGT`: >
+* `A*EPBG`: >
+* `HR*PB`: <
+* `TKPWR*PB`: >
+* `PWRABG`: <
+* `PWRA*BG`: >
+* `KWA*LS`: =
+* `KW-L`: =
+* `KW-LS`: ==
+* `KW*LS`: ===
+* `PAO*EUP`: \|
+* `R*UPB`: _
+* `R*UPBD`: _
+* `RUPBD`: _
+* `H-PB`: -
+* `PH*PBS`: -
+* `TK-RB`: --
+* `OEU`: /
+* `SPWHRAERB`: \
+* `P-P`: .
+* `HR-PS`: ...
+* `A*E`: '
+* `AE`: '
+* `KW-GS`: "
+* `KR-GS`: "
+* `PREPB`: (
+* `PR*EPB`: )
+* `PWR*BGT`: ]
+* `PWR-BGT`: [
+* `TPR-BGT`: {
+* `TPR*BGT`: }
+* `TK-PL`: $
+* `STA*R`: *
+* `SP-PBD`: &
+* `HAERB`: #
+* `PERS`: %
+* `PHR*US`: +
+
+There is an additional stroke for an unspaced double quotation mark combining the opening and closing double quotation mark briefs:
+
+* `KWR-GS`: "
+
+You might then remove the usual strokes for opening and closing double quotation marks from your dictionary so you can still use these marks with spacing on demand. You might also replace these entries with smart or curly double quotation marks, for example:
+
+```
+"KW-GS": "{“^}",
+"KR-GS": "{^”}",
+```
+
+You could then write `Test “test” test.` using `KPA* TEFT KW-GS TEFT KR-GS TEFT TP-PL`.
+
+Similarly with single quotation marks (not included in this dictionary):
+
+```
+"TP-P": "{‘^}",
+"TP-L": "{^’}",
+```
 
 
 
