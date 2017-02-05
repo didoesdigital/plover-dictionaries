@@ -178,15 +178,20 @@ Similarly with single quotation marks (not included in this dictionary):
 
 
 
-## Australian English Dictionary
+## Australian English Dictionaries
 
-This is an Australian English companion dictionary intended to be used in combination with the default Plover dictionary. It overrides default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.
+There are two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary.
 
-To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+
+The other dictionary uses a kind of suffix stroke, `/A*U`, after every default brief to translate the word to Australian English. For example, to write "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary's entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict_en_AU_with_extra_stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU_with_extra_stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
+
 
 
 
 ### Notes on Design of and Changes in the Australian English Dictionary
+
+These notes concern the main Australian English dictionary, [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json):
 
 - Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
 - `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
@@ -212,7 +217,7 @@ To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonste
 
 ### Australian vocabulary
 
-New briefs have been added for Australian [diminuitives](https://en.wikipedia.org/wiki/Diminutives_in_Australian_English), flora, fauna, [slang and more](https://en.wikipedia.org/wiki/Australian_English_vocabulary). For example:
+New briefs have also been added for Australian [diminuitives](https://en.wikipedia.org/wiki/Diminutives_in_Australian_English), flora, fauna, [slang and more](https://en.wikipedia.org/wiki/Australian_English_vocabulary). For example:
 
 * `"STRA*EU": "Australia",`
 * `"STRA*EU/KWRA": "straya",`
@@ -228,12 +233,12 @@ New briefs have been added for Australian [diminuitives](https://en.wikipedia.or
 
 ### Changed Briefs
 
-The brief for "programme" is overriden by "pram", requiring a new brief for "program":
+The brief for "programme" is overridden by "pram", requiring a new brief for "program":
 
     +"PRAPL": "pram",
     +"PRO/TKPWRAPL": "program",
 
-The `*EG` brief for "e.g." is overriden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
+The `*EG` brief for "e.g." is overridden by the "eing" suffix for the Australian spelling of "ageing", requiring a new brief for "e.g.":
 
     +"AOE/SKWRAO*E": "e.g.",
 
