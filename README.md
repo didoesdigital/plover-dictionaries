@@ -87,7 +87,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 * ~ `T*LD` (<strong>t</strong>i<strong>ld</strong>e, spaced)
 * ~ `T*EULD` (<strong>t</strong>i<strong>ld</strong>e, unspaced)
 * @ `KWRAT` =&gt; `YAT` (<strong>at</strong>-sign
-* # `HAERB` =&gt; `HAESH` (<strong>hash</strong>)
+* `#` `HAERB` =&gt; `HAESH` (<strong>hash</strong>)
 * $ `TK-PL` =&gt; `D-M` (<strong>d</strong>ollar <strong>m</strong>ark)
 * % `PERS` (<strong>perce</strong>nt)
 * ^ `KR-RT` =&gt; `C-RT` (<strong>c</strong>a<strong>r</strong>e<strong>t</strong>)
