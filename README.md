@@ -15,6 +15,14 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 
 
 
+## Fingerspelling Dictionaries
+
+Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
+
+- A [`fingerspelling_FPLT.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling_FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
+- A [`fingerspelling_RBGS.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling_RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
+
+
 ## Navigation Dictionary
 
 This dictionary lets you navigate and edit text efficiently on a Mac. You can move the cursor by letter, word, or line, select while doing so, and also backspace or forward delete by character, word, or line. You can also switch tabs, windows, and apps.
