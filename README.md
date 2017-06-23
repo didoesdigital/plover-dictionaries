@@ -6,7 +6,12 @@
 
 ## Main Dictionary
 
-Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), the main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) file in this repo contains many English words using briefs and phonetic strokes, but contains fewer misstrokes.
+Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains:
+
+- A main [`dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict.json) dictionary, containing many English words using briefs and phonetic strokes, but contains fewer misstrokes.
+- A [`google-1000-english.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/google-1000-english.json) dictionary, including 1000 popular English words by N-grams; credit goes to [Josh Kaufman's typing word list from Google's Trillion Word Corpus](https://github.com/first20hours/google-10000-english). This might be a good training dictionary.
+- A [`minimal-plover-dict.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/minimal-plover-dict.json) dictionary, using the main `dict.json` minus all the excess strokes and misstrokes for translations that already exist in their shortest form in the `google-1000-english.json` dictionary. This is a good standalone dictionary.
+- A [`plover-dict-minus-google-1000-english-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/minimal-plover-dict.json) dictionary, using the main `dict.json` minus the `google-1000-english.json` dictionary. Use this together with `google-1000-english.json`.
 
 
 
