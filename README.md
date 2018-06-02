@@ -122,6 +122,15 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 
 
+### Punctuation Powerups Dictionary
+
+- [`punctuation_powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation_powerups.json) contains additional punctuation briefs such as:
+    - pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
+    - smart/curly quotation marks (`"TP-L": "{^’}"`), and
+    - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
+
+
+
 ## Symbols Dictionaries
 
 - [`symbols.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
