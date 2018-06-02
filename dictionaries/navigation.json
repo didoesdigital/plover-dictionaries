@@ -33,6 +33,8 @@
 "SP-P": "{#Shift_L(space)}",
 "THRAB": "{#Alt_L(Down)}",
 "THRAP": "{#Alt_L(Up)}",
+"TW-FB": "{#Super_L(bracketleft)}",
+"TW-LG": "{#Super_L(bracketright)}",
 "TW-F": "{#Super_L(Shift_L(bracketleft))}",
 "TW-L": "{#Super_L(Shift_L(bracketright))}",
 "TW-B": "{#Super_L(grave)}",
