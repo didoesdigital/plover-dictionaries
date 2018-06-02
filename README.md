@@ -15,6 +15,12 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 
 
 
+## Vocabulary Dictionaries
+
+- [`nouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
+
+
+
 ## Fingerspelling Dictionaries
 
 Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
