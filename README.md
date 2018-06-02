@@ -450,6 +450,15 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 
 
 
+## Technical Dictionaries
+
+- Copy the [`html.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/html.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"HR*EF": "href",`.
+- Copy the [`css-alignment.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-alignment.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TPHREBGS": "flex",`.
+- Copy the [`css-declarations.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-declarations.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"KA*LG": "calc",`.
+- Copy the [`css-media-object.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/css-media-object.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"*EUPBLG": "img",`.
+- Copy the [`javascript.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/javascript.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",`.
+- Copy the [`python.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
+
 
 
 ## Common Words Dictionary
