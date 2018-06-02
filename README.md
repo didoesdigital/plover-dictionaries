@@ -516,6 +516,7 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 - Copy the [`javascript.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/javascript.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TKPWET/EL/*EPLT/PWEU/EUD": "getElementById",`.
 - Copy the [`python.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
 - Copy the [`ux-design.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/ux-design.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"AOUBLT": "usability",`.
+- Copy the [`code.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
 
