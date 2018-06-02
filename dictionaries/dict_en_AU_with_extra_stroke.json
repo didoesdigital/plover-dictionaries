@@ -1,4 +1,8 @@
 {
+"KAP/TAL/HRAOEUZ/A*U/-G": "capitalising",
+"KAP/TAL/SA*EUGS/A*U": "capitalisation",
+"SA*EUGS/A*U": "{^isation}",
+"KAPLT/AOEUZ/A*U": "capitalise",
 "KAT/HROBGS/A*U": "catalogues",
 "KAT/HROG/-G/A*U": "cataloguing",
 "KAT/HROG/A*U": "catalogue",
@@ -2053,6 +2057,8 @@
 "TKAOE/TPEPB/-S/A*U": "defences",
 "TKAOE/TPEPB/A*U": "defence",
 "TKAOEPL/KWRA/A*U": "edoema",
+"TKAOEU/HROG/A*U": "dialogue",
+"TKHROG/A*U": "dialogue",
 "TKAOEU/RAOE/KWRA/A*U": "diarrhoea",
 "TKAOEUL/*LG/A*U": "dialling",
 "TKAOEULD/A*U": "dialled",
@@ -2150,6 +2156,7 @@
 "TKPWUPL/PWAOT/-S/A*U": "gumboots",
 "TKPWUPL/PWAOT/A*U": "gumboot",
 "TKR-L/A*U": "driver's licence",
+"TKR-LS/A*U": "driver's licence",
 "TKRA/PHA/TAOEUZ/A*U": "dramatise",
 "TKRAF/TEU/A*U": "draughty",
 "TKRAFT/-S/PHAPB/A*U": "draughtsman",
@@ -2308,6 +2315,7 @@
 "TPEULS/TPAOEUZ/A*U": "philosophise",
 "TPH*DZ/A*U": "north side",
 "TPH-RPBLGZ/A*U": "energise",
+"TPHA*EL/SA*EUGS/A*U": "internationalisation",
 "TPHAEU/PWOR/A*U": "neighbour",
 "TPHAEU/PWOR/HAOD/A*U": "neighbourhood",
 "TPHAEU/PWOR/HAODZ/A*U": "neighbourhoods",
@@ -2491,6 +2499,5 @@
 "WHEUPBG/A*U": "whinge",
 "WOB/PWAOE/TKPWOPBG/A*U": "wobbegong",
 "WRAEL/AOEUZ/-D/A*U": "realised",
-"WUBG/TKAS/A*U": "wukkas",
-"WUZ/WUZ/A*U": "{}"
+"WUBG/TKAS/A*U": "wukkas"
 }
