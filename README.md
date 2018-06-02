@@ -388,6 +388,14 @@ Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 * `"STPR-L"`: Runs `gt` to go to next tab. Follows brief format of tabs from tab navigation dictionary.
 * `"STPR-F"`: Runs `gT` to go to previous tab. Follows brief format of tabs from tab navigation dictionary.
 
+* Quickfix list “command do” to execute `{cmd}` in each entry of the list: `"KHRO*D": "cdo",`
+* Vertical split screen: `"SR*EUP": ":vsp{#Return}",`
+* Ignore case in search: `"OEU/KRO*EU": "{^/\\c^}",`
+* `"SREUPL/KWRUPL": "vimium",`
+* `"SRUPBLD": "vundle",`
+* `"PWUPBLD": "bundle",`
+* `"PHRUG": "plug",`
+
 * Single-stroke Control key (`⌃`) fingerspelling modifier collection:
     - `"A*RBL": "{#Control_L(a)}",`
     - `"PW*RBL": "{#Control_L(b)}",`
