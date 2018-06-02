@@ -162,23 +162,6 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 
 
-## Symbols Dictionaries
-
-- [`symbols.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
-- [`symbols_briefs.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
-- [`symbols_currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
-- [`symbols_currency_culled.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency_culled.json) contains only these currency symbols:
-
-```json
-"SPWO*L/KREPBT": "¢",
-"SPWO*L/TKHRAR": "$",
-"SPWO*L/*EUR": "€",
-"SPWO*L/POUPBD/STERLG": "£",
-"SPWO*L/KWREPB": "¥"
-```
-
-
-
 ## Unspaced Punctuation Dictionary
 
 This dictionary uses common briefs for punctuation, but with translations that suppress surrounding spaces (before and after the punctuation) for more precise input. This might be handy for programming, for example.
@@ -252,6 +235,41 @@ Similarly with single quotation marks (not included in this dictionary):
 "TP-L": "{^’}",
 ```
 
+
+
+## Symbols Dictionaries
+
+- [`symbols.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
+- [`symbols_briefs.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
+- [`symbols_currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
+- [`symbols_currency_culled.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency_culled.json) contains only these currency symbols:
+
+```json
+"SPWO*L/KREPBT": "¢",
+"SPWO*L/TKHRAR": "$",
+"SPWO*L/*EUR": "€",
+"SPWO*L/POUPBD/STERLG": "£",
+"SPWO*L/KWREPB": "¥"
+```
+
+
+
+## Currency Dictionaries
+
+[`currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/currency.json) contains briefs for currency words, such as AUD (`"*AUD": "AUD",`) and dollar (`"SWEUS/TPRAEPBG": "Swiss franc",`), a currency formatting stroke (`"K*RPBS": "{*($c)}",` so you can stroke `34/P-P/5/K*RPBS` to write $34.50), as well as briefs:
+
+* `"TKHRAR": "dollar",`
+* `"TKHRARS": "dollars",`
+* `"PH-LD": "million dollar",`
+* `"PH-LDZ": "million dollars",`
+* `"PW-LD": "billion dollar",`
+* `"PW-LDZ": "billion dollars",`
+* `"TR-LD": "trillion dollar",`
+* `"TR-LDZ": "trillion dollars",`
+
+You might also like the related symbols currency dictionary:
+
+- [`symbols_currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
 
 ## Australian English Dictionaries
