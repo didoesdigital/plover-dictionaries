@@ -59,6 +59,36 @@ Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧
 
 
 
+## Computer Powerups Dictionary
+
+This dictionary was designed for running commands on a Mac. Copy the [`computer_powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/computer_powerups.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+
+* Tab and Space keys `"STA*PB": "{#Tab}{#space}",`
+* Mac Character Viewer `"KHA*RZ": "{#Control_L(Super_L(space))}",`
+* Shift Return key (⇧↵) `"STP*R": "{#Shift_L(Return)}",`
+* Command backslash (⌘/) `"O*EURPLT": "{#Super_L(backslash)}",`
+* Command Shift backslash (⌘⇧/) `"O*EURPBLT": "{#Super_L(Shift_L(backslash))}",`
+* Audio play `"PHRA*EU": "{#AudioPlay}",`
+* Audio raise volume `"SROPL": "{#AudioRaiseVolume}",`
+* Audio lower volume `"SRO*PL": "{#AudioLowerVolume}",`
+* Audio next `"TPH*EGT": "{#AudioNext}",`
+* Audio mute `"PHAO*UT": "{#AudioMute}",`
+* Monitor brightness up `"PWROEUT": "{#MonBrightnessUp}",`
+* Monitor brightness down `"PWRO*EUT": "{#MonBrightnessDown}",`
+* Keyboard brightness up `"KPWROEUT": "{#KbdBrightnessDown}",`
+* Keyboard brightness down `"KPWRO*EUT": "{#KbdBrightnessUp}",`
+* Command Escape `"KPH*/TPEFBG": "{#Super_L(Escape)}",`
+* Command Space `"-FRL": "{#Super_L(space)} {^}",`
+* Command Space (alternative) `"A*FRL": "{#Super_L(space)} {^}",`
+* Command Option C (⌘⌥C) to copy from clipboard history `"KPWR*": "{#command(option(c))}",`
+* Command Return `"KPHR*R": "{#command(return)}",`
+* Control Space `"SP-LT": "{#Control_L(space)}{^}",`
+* Option Escape for Speak selected text `"SPAO*EBG": "{#Alt_L(Escape)}",`
+* Screenshot selected area as a file `"SKR*PB": "{#Super_L(Shift_L(4))}",`
+* Screenshot selected area and copy to clipboard `"SKR*RPB": "{#Super_L(Control_L(Shift_L(4)))}",`
+
+
+
 ## Punctuation Dictionary
 
 Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
