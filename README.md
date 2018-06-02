@@ -18,6 +18,7 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 ## Vocabulary Dictionaries
 
 - [`nouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
+- [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes.
 
 
 
