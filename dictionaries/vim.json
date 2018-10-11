@@ -1,4 +1,11 @@
 {
+"RO*RB": "{^}{#Return}{#Escape}{^}O",
+"TPH*EG": "{^}]]zt{^}",
+"SROEUPBD": "{^}ys{^}",
+"SRO*EUPBD": "{^}yS{^}",
+"KHRO*D/SPWAO*UT": "cdo s###g | w {#Left} {#Left} {#Left} {#Left} {#Left} {#Left} {#Left}",
+"STPREG": "{^}{#Escape}:cn{#Return}",
+"STPR*EG": "{^}{#Escape}:cp{#Return}",
 "KHRO*D": "cdo",
 "SREUPL/KWRUPL": "vimium",
 "SRUPBLD": "vundle",

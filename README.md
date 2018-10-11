@@ -424,6 +424,12 @@ Copy the [`vim.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
     - `"KWR*RBL": "{#Control_L(y)}",`
     - `"STKPW*RBL": "{#Control_L(z)}",`
 
+* `"RO*RB"` to hit Return, Escape, and O for leaving cursor inside a function after writing a pair of brackets.
+* `"TPH*EG"` to move to the next markdown header and move that heading’s line to the top of the window using [vim-markdown](https://github.com/dimonster/vim-markdown)
+* `"SROEUPBD": "{^}ys{^}",` and `"SRO*EUPBD": "{^}yS{^}",` for yank surround using [vim-surround](https://github.com/tpope/vim-surround)
+`"KHRO*D/SPWAO*UT"` to use `cdo` and `s###g | w` substitute with a write between each substitution.
+* `"STPREG"` and `STPR*EG` to go to next and previous errors (using `:cn` and `:cp`).
+
 
 
 
