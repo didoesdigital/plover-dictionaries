@@ -462,6 +462,9 @@ Copy the [`git.json`](https://github.com/dimonster/plover-dictionaries/raw/maste
 * "HEAD" `KPA*E/HED`
 * "^" `KR-RT`
 * "/" `OEU`
+* "gitignore" `TKPWEUT/EUG`
+* "mergetool" `PHERPBLGT`
+* "checkout" `KHEBGT`
 
 
 
