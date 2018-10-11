@@ -520,6 +520,7 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 - Copy the [`react.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/react.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"TH-P/SET/STA*ET/PR*EPBS": "{>}this.setState()",`.
 - Copy the [`python.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/python.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"PAOEU/S*FR": "python -m SimpleHTTPServer",`.
 - Copy the [`ux-design.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/ux-design.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"AOUBLT": "usability",`.
+- Copy the [`sketch-app.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/sketch-app.json) file into your dictionary folder and add it to your Plover config to use the briefs like: `"SK*EFP/PHR-P": "{#Alt_L(Super_L(Up))}",` to move layers.
 - Copy the [`code.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
