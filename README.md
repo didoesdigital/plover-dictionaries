@@ -520,6 +520,12 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 
 
 
+## Condensed strokes
+
+This dictionary consists of common words that can already be written using the default Plover dictionary plus prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. Copy the [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) file into your dictionary folder and add it to your Plover config to improve dictionary lookups.
+
+
+
 ## Common Words Dictionary
 
 This dictionary consists of common words already available in the default Plover dictionary. If you need only the common words for some reason, copy the [`common-words.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/common-words.json) file into your dictionary folder and add it to your Plover config to use the briefs for a thousand or so common English words.
