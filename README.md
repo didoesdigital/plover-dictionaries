@@ -18,7 +18,7 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 ## Vocabulary Dictionaries
 
 - [`nouns.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/nouns.json) contains a few hundred additional words.
-- [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes.
+- [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) contains a combinations of existing strokes in the main Plover dictionary so that they appear in searches when you look up strokes. These words can already be written using the default Plover dictionary and prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words.
 
 
 
@@ -530,10 +530,6 @@ Copy the [`ruby.json`](https://github.com/dimonster/plover-dictionaries/raw/mast
 - Copy the [`code.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/code.json) file into your dictionary folder and add it to your Plover config to use various briefs relating to coding and the command line.
 
 
-
-## Condensed strokes
-
-This dictionary consists of common words that can already be written using the default Plover dictionary plus prefix/suffix strokes or punctuation strokes. It can be useful for improving dictionary lookups, but is not needed to write the words. Copy the [`condensed-strokes.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/condensed-strokes.json) file into your dictionary folder and add it to your Plover config to improve dictionary lookups.
 
 
 
