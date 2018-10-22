@@ -26,8 +26,8 @@ Based on [Plover's default `main.json` dictionary](https://github.com/openstenop
 
 Based on [Plover's default `main.json` dictionary](https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json), this repo contains 2 alternative fingerspelling dictionaries:
 
-- A [`fingerspelling_FPLT.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling_FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
-- A [`fingerspelling_RBGS.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling_RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
+- A [`fingerspelling-FPLT.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling-FPLT.json) dictionary, using fingerspelled letters on the left hand and `-FPLT` on the right hand.
+- A [`fingerspelling-RBGS.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/fingerspelling-RBGS.json) dictionary, using fingerspelled letters on the left hand and `-RBGS` on the right hand.
 
 
 ## Navigation Dictionary
@@ -62,7 +62,7 @@ Use `TW-` and a direction for tabbing. Adding `-F`/`-L` gives you ⌘⇧[/⌘⇧
 
 ## Computer Powerups Dictionary
 
-This dictionary was designed for running commands on a Mac. Copy the [`computer_powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/computer_powerups.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
+This dictionary was designed for running commands on a Mac. Copy the [`computer-powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/computer-powerups.json) file into your dictionary folder and add it to your Plover config to use the following briefs:
 
 * Tab and Space keys `"STA*PB": "{#Tab}{#space}",`
 * Mac Character Viewer `"KHA*RZ": "{#Control_L(Super_L(space))}",`
@@ -155,7 +155,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 ### Punctuation Powerups Dictionary
 
-- [`punctuation_powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation_powerups.json) contains additional punctuation briefs such as:
+- [`punctuation-powerups.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/punctuation-powerups.json) contains additional punctuation briefs such as:
     - pairs of punctuation (`"PWRABGS": "{^}<>{#Left}{^}"`),
     - smart/curly quotation marks (`"TP-L": "{^’}"`), and
     - punctuation that carries capitalisation  (`"KW-GS": "{~|“^}"`).
@@ -166,7 +166,7 @@ Copy the [`punctuation.json`](https://github.com/dimonster/plover-dictionaries/r
 
 This dictionary uses common briefs for punctuation, but with translations that suppress surrounding spaces (before and after the punctuation) for more precise input. This might be handy for programming, for example.
 
-To use the following briefs, copy the [`unspaced_punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/unspaced_punctuation.json) file into your dictionary folder and add it to your Plover config:
+To use the following briefs, copy the [`unspaced-punctuation.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/unspaced-punctuation.json) file into your dictionary folder and add it to your Plover config:
 
 * `EPB/TKA*RB`: –
 * `EPL/TKA*RB`: —
@@ -240,9 +240,9 @@ Similarly with single quotation marks (not included in this dictionary):
 ## Symbols Dictionaries
 
 - [`symbols.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols.json) contains common symbols, such as degrees (`"SPWO*L/TKEGS": "°"`) and trademark (`"SPWO*L/TRAEUD/PHARBG": "{^}™"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"TRAEUD/PHARBG": "trademark",` and `"TKEGS": "degrees"`).
-- [`symbols_briefs.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
-- [`symbols_currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
-- [`symbols_currency_culled.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency_culled.json) contains only these currency symbols:
+- [`symbols-briefs.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-briefs.json) contains briefs for symbols, such as `"TK*EGS": "°"`.
+- [`symbols-currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
+- [`symbols-currency-culled.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency-culled.json) contains only these currency symbols:
 
 ```json
 "SPWO*L/KREPBT": "¢",
@@ -269,23 +269,23 @@ Similarly with single quotation marks (not included in this dictionary):
 
 You might also like the related symbols currency dictionary:
 
-- [`symbols_currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols_currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
+- [`symbols-currency.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/symbols-currency.json) contains briefs for currency symbols, such as cent (`"SPWO*L/KREPBT": "¢"`) and dollar (`"SPWO*L/TKHRAR": "$"`). All of the entries are prefixed with a “symbol” stroke, `"SPWO*L": "{#}"`. The remainder of each entry’s stroke uses the stroke that would write the word instead of the symbol (for example, `"KREPBT": "cent"` and `"TKHRAR": "dollar"`).
 
 
 ## Australian English Dictionaries
 
 There are two Australian English companion dictionaries, each intended to be used in combination with the default Plover dictionary.
 
-One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
+One overrides the default briefs with Australian variations, and also includes Australian prefixes, suffixes, alternative spellings, and vocabulary.  To use this dictionary, copy the [`dict-en-AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary so that it overrides default Plover briefs.
 
-The other dictionary uses a kind of suffix stroke, `/A*U`, after every default brief to translate the word to Australian English. For example, to write "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary's entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict_en_AU_with_extra_stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU_with_extra_stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
+The other dictionary uses a kind of suffix stroke, `/A*U`, after every default brief to translate the word to Australian English. For example, to write "empathize", you would stroke `*EPL/THAOEUS`. Then, to write "empathise" you would add `/A*U`. That is, this dictionary's entry for "empathise" is `"*EPL/THAOEUS/A*U": "empathise",`. To use this dictionary, copy the [`dict-en-AU-with-extra-stroke.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU-with-extra-stroke.json) file into your dictionary folder and add it to your Plover config after the default Plover dictionary.
 
 
 
 
 ### Notes on Design of and Changes in the Australian English Dictionary
 
-These notes concern the main Australian English dictionary, [`dict_en_AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict_en_AU.json):
+These notes concern the main Australian English dictionary, [`dict-en-AU.json`](https://github.com/dimonster/plover-dictionaries/raw/master/dictionaries/dict-en-AU.json):
 
 - Briefs primarily form the Australian spelling, while longer phonetic strokes may form the US spelling on demand.
 - `A*ER`strokes the "aero" prefix for the Australian spelling of aeroplane
