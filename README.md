@@ -1,5 +1,13 @@
 # Plover Dictionaries
 
+***************************************************************************************************
+There's a [new repo](https://github.com/didoesdigital/steno-dictionaries)!
+
+Go see the [new steno-dictionaries repo](https://github.com/didoesdigital/steno-dictionaries)!
+
+This repo will no longer be updated.
+***************************************************************************************************
+
 [Plover](http://stenoknight.com/wiki/FAQ#What_is_Plover.3F) steno dictionaries in JSON format.
 
 
